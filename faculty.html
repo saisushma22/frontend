@@ -1,0 +1,134 @@
+<html>
+
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Your Skills</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+<style> {
+    margin: 0px;
+    padding: 0px;
+}
+
+#text-box{
+ background-color: aqua;
+    padding:5px 10px;
+    top:50%;
+    width:100%;
+    position: top;
+    left:40%;
+}
+
+.question{
+ background-color: antiquewhite;
+    font-family: 'Roboto Slab', sans-serif;
+    letter-spacing: .13em;
+    width:100%;
+    padding:5px 10px;
+    top:50%;
+    right:100%;
+}
+
+.choice{
+    background-color: #black;
+    padding: 3%;
+
+}
+
+
+.options{
+    background-color: #black;
+    display:block;
+    margin-left: 13%;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: left;
+}
+
+ input[type=radio] {
+     border: 5px solid white;
+     width: 20px;
+     height: 1.3em;
+     float: left;
+}
+
+.next-btn{
+    background-color: #fff;
+    padding: 2%;
+}
+.save-btn{
+    background-color: #fff;
+    padding: 2%;
+}
+.save-button{
+    background-color:white;
+    border: 2px solid #FF9933;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: monospace;
+    transition: background-color 0.3s,border 0.2s, color 0.2s;
+}
+
+.save-button:hover{
+    
+    background-color: #FF9933;
+    padding: 16px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.next-button{
+    background-color:white;
+    border: 2px solid #FF9933;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: monospace;
+    transition: background-color 0.3s,border 0.2s, color 0.2s;
+}
+.next-button:hover{
+    
+    background-color: #FF9933;
+    padding: 16px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+</style>
+    </head>
+    
+    <body>
+       
+            <div id="text-box">
+     	<input type="text" placeholder="Enter Subject"/>     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    <input type="text" placeholder="Enter Topic"/>
+            </div>    
+        </div>
+        
+            <div class="question">
+	
+            <input type="text" placeholder="Enter Question" size="75"/>
+            </div>
+	<h3>Select Correct Option :-</h3>
+            
+            <div class="choice">
+                <div class="options"><input type="radio" name="options" value="option1" id="opt0"><label for="opt0" id="lb0"><input type="text" placeholder="Enter options"/></label></div>
+                <div class="options"><input type="radio" name="options" value="option2" id="opt1"><label for="opt1" id="lb1"><input type="text" placeholder="Enter options"/></label></div>
+                <div class="options"><input type="radio" name="options" value="option3" checked="checked" id="opt2"><label for="opt2" id="lb2"><input type="text" placeholder="Enter options"/></label></div>
+                <div class="options"><input type="radio" name="options" value="option4" id="opt3"><label for="opt3" id="lb3"><input type="text" placeholder="Enter options"/></label></div>   
+            </div>
+	
+	
+	<div class="next-btn">
+                <button type="button" class="next-button">Next</button>
+            </div>
+
+             <div class="save-btn">
+                <button type="button" class="save-button">Save Quiz</button>
+            </div>
+
+        </div>
+        
+    </body>
+
+</html>
